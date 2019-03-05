@@ -7,7 +7,7 @@ public class GuessingGame {
 	
 	public static int MAXGUESSALLOWED = 6; 
 	
-	public int answer, differential, maximum, numGuessesTaken, theirGuess; 
+	public int answer, maximum, theirGuess; 
 	Random rand = new Random(); 
 	boolean isGameOver = false; 
 	
@@ -15,8 +15,6 @@ public class GuessingGame {
 	public void newGame(int maximum) {
 		answer = (rand.nextInt((maximum - 0) +1) + 0);
 		isGameOver = false;
-		differential = maximum; 
-		numGuessesTaken = 0; 
 	}
 	
 	public void Guess(int maximum) {

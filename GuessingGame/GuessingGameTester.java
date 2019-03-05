@@ -1,3 +1,8 @@
+/*
+ * By Keenal Shah
+ * Guessing Game
+ * Try to guess a number within 6 tries!
+ */
 import java.util.Scanner;
 
 public class GuessingGameTester {
