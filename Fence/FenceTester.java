@@ -1,3 +1,7 @@
+/*
+* By Keenal Shah
+* Draws a fence based on height and width
+*/
 import java.util.Scanner;
 
 public class FenceTester {
